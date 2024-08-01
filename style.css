@@ -1,0 +1,70 @@
+/* || RESET */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  font: inherit;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 20vw;
+}
+
+
+h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 3em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10%;
+  min-height: calc(100vh - 20em);
+  margin: 5em 0;
+}
+
+button {
+  font-size: 2em;
+  text-wrap: nowrap;
+}
+
+#playWhiteNoiseButton,
+#stopWhiteNoiseButton {
+  background-color: whitesmoke;
+  color: #111;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#playBrownNoiseButton,
+#stopBrownNoiseButton {
+  background-color: brown;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#playPinkNoiseButton,
+#stopPinkNoiseButton {
+  background-color: pink;
+  color: #111;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
