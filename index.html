@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Noise Generator</title>
-</head>
-<body>
-    <h1>Noise Generator</h1>
-    <div class="container">
-      <button id="playWhiteNoiseButton">Play White Noise</button>
-      <button id="stopWhiteNoiseButton">Stop White Noise</button>
-      <button id="playBrownNoiseButton">Play Brown Noise</button>
-      <button id="stopBrownNoiseButton">Stop Brown Noise</button>
-      <button id="playPinkNoiseButton">Play Pink Noise</button>
-      <button id="stopPinkNoiseButton">Stop Pink Noise</button>
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Noise Generator</title>
+</head>
+
+<body>
+  <h1>Noise Generator</h1>
+  <div class="container">
+    <div class="sub-container" id="whiteNoise">
+      <p>White Noise</p>
+      <label class="switch">
+        <input type="checkbox" id="toggleWhite">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div class="sub-container" id="brownNoise">
+      <p>Brown Noise</p>
+      <label class="switch">
+        <input type="checkbox" id="toggleBrown">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div class="sub-container" id="pinkNoise">
+      <p>Pink Noise</p>
+      <label class="switch">
+        <input type="checkbox" id="togglePink">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
